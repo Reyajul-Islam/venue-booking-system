@@ -1,0 +1,132 @@
+.banner_area .position {
+    bottom: 100px;
+  }
+
+  .blog_banner_two {
+    padding: 120px 0px 104px;
+  }
+
+
+  /*  Rating css */
+
+  .rating-box {
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+
+  .flex-middle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .avg-rating {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  .rating-value {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .rating-value span {
+    font-size: 16px;
+    color: #555;
+  }
+
+  .star {
+    color: orange;
+    font-size: 24px;
+    margin-left: 8px;
+  }
+
+  .total-ratings {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .bars .bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .bars .progress {
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .bars .progress::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #0f7d58;
+    width: var(--value);
+  }
+
+  .bars .progress.orange::before {
+    background-color: #e76c38;
+  }
+
+  .bars .progress.yellow::before {
+    background-color: #fbc02d;
+  }
+
+  /* Circular Rating */
+
+  .circle-box {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .circle {
+    width: 80px;
+    text-align: center;
+  }
+
+  .circle svg {
+    width: 60px;
+    height: 60px;
+    transform: rotate(-90deg);
+  }
+
+  .circle .bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 4;
+  }
+
+  .circle .progress {
+    fill: none;
+    stroke: #198754;
+    stroke-width: 4;
+    stroke-linecap: round;
+  }
+
+  .circle .value {
+    position: relative;
+    top: -48px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .circle .label {
+    font-size: 12px;
+    margin-top: -35px;
+  }
+
+
+
+  /*  Rating css end */

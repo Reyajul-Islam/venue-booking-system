@@ -6,10 +6,10 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 
-class IndexController extends Controller
+class VenueDetailsController extends Controller
 {
-    public function index(): View
+    public function venueDetails($venuename): View
     {
-        return view('website.index');
+        return view('website.venue-details');
     }
 }
